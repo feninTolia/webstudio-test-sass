@@ -1,0 +1,42 @@
+// @import "./variables";
+// @import "./components/page-header";
+
+// body {
+//   background-color: $text-color;
+// }
+
+// body {
+//   background-color: $bg-color;
+// }
+
+// @mixin centeredFlex($type: flex) {
+//   display: $type;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// div {
+//   @include centeredFlex(inline-block);
+// }
+
+// p {
+//   @include centeredFlex();
+// }
+
+// $icons: "facebook", "twitter", "linkedin", "github";
+// $iconsS: "face", "twier", "liin", "gub";
+// @each $iconName in $icons {
+//   .icon-#{$iconName} {
+//     background-image: url(../images/#{$iconName}.svg);
+//   }
+// }
+
+// @mixin generateIcons($iconList) {
+//   @each $iconName in $iconList {
+//     .icon-#{$iconName} {
+//       background-image: url(../images/#{$iconName}.svg);
+//     }
+//   }
+// }
+
+// @include generateIcons($iconsS);
