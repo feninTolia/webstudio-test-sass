@@ -20,7 +20,7 @@
   <body class="page">
     <!-- шапка сайта -->
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <div class="head-wrapper">
           <nav class="main-nav">
             <a href="./index.html" class="logo"
@@ -40,25 +40,25 @@
 
           <ul class="cont-nav">
             <li class="cont-nav-item">
-              <svg class="mail-icon">
+              <!-- <svg class="mail-icon">
                 <use
                   href="./images/symbol-defs.svg#icon-mail"
                   height="12"
                   width="16"
                 ></use>
-              </svg>
+              </svg> -->
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
             </li>
             <li class="cont-nav-item">
-              <svg class="smartphone-icon">
+              <!-- <svg class="smartphone-icon">
                 <use
                   href="./images/symbol-defs.svg#icon-smartphone"
                   height="16"
                   width="10"
                 ></use>
-              </svg>
+              </svg> -->
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>
@@ -85,7 +85,7 @@
         <!-- <h2>Особенности компании</h2> -->
         <div class="container">
           <ul class="features list">
-            <li>
+            <li class="features-item">
               <div class="thumb-features">
                 <svg class="thumb-icon">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
@@ -180,7 +180,7 @@
                 <img
                   src="./images/img-Demjanenko.jpg"
                   alt="Фото Игоря Демьянченко"
-                  width="270"
+                  width="100%"
                 />
                 <h3 class="section-title team-item">Игорь Демьяненко</h3>
                 <p class="team-item text">Product Designer</p>
@@ -228,7 +228,7 @@
                 <img
                   src="./images/img-Repina.jpg"
                   alt="Фото Ольги Репиной"
-                  width="270"
+                  width="100%"
                 />
                 <h3 class="section-title team-item">Ольга Репина</h3>
                 <p class="team-item text">Frontend Developer</p>
@@ -276,7 +276,7 @@
                 <img
                   src="./images/img-tarasov.jpg"
                   alt="Фото Николая Тарасова"
-                  width="270"
+                  width="100%"
                 />
                 <h3 class="section-title team-item">Николай Тарасов</h3>
                 <p class="team-item text">Marketing</p>
@@ -324,10 +324,10 @@
                 <img
                   src="./images/img-ermakov.jpg"
                   alt="Фото Михаила Ермакова"
-                  width="270"
+                  width="100%"
                 />
                 <h3 class="section-title">Михаил Ермаков</h3>
-                <p>UI Designer</p>
+                <p class="team-item text">UI Designer</p>
                 <ul class="social">
                   <li href="" class="social-item">
                     <a>
@@ -538,11 +538,8 @@
             <span class="check__box"></span>
             <p class="check-label">
               Соглашаюсь с рассылкой и принимаю
-              <span>
-                <a href="https://github.com/" target="_blank"
-                  >Условия договора</a
-                >
-              </span>
+              <a href="https://github.com/" target="_blank">Условия договора</a>
+              .
             </p>
           </label>
 

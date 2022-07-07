@@ -1,0 +1,132 @@
+/* style of footer */
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer .footer-geolocation {
+  color: $primary-white-color;
+  background-color: #2f303a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-text {
+  color: rgb(255 255 255/ 0.6);
+  background-color: #2f303a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.page-footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.container .footer {
+  padding: 60px 0;
+}
+
+.subscribe-form {
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+.subscribe-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
+.subscribe-field {
+  display: block;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-bottom: 12px;
+}
+
+.subscribe-field input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  border-radius: 4px;
+
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 63px;
+
+  align-items: center;
+  text-align: center;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.06em;
+  padding-left: 29px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.subscribe-btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 3px;
+
+  background: url(../images/icon\ send.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer-wrapper.container {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.footer-nav {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    margin-left: 76px;
+    margin-right: 165px;
+  }
+}
