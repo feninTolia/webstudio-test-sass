@@ -3,3 +3,44 @@
     display: none;
   }
 }
+
+.our-work .list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.section.our-work {
+  margin-bottom: 94px;
+}
+
+.thumb-work {
+  position: relative;
+}
+
+.thumb-work-text {
+  position: absolute;
+  bottom: 3.5px;
+  left: 0;
+  height: 70px;
+  width: 370px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 27px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.section-title.our-work {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}

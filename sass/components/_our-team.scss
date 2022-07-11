@@ -26,6 +26,10 @@
       margin-bottom: 30px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 
 .section-title.team {

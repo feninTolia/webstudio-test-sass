@@ -22,46 +22,74 @@
     <header class="page-header">
       <div class="container header-container">
         <div class="head-wrapper">
-          <nav class="main-nav">
-            <a href="./index.html" class="logo"
-              ><span class="logo-head">Web</span>Studio</a
+          <a href="./index.html" class="logo"
+            ><span class="logo-head">Web</span>Studio</a
+          >
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
             >
+              <use
+                class="icon-cross"
+                href="./images/symbol-02.svg#icon-close"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/symbol-02.svg#icon-menu"
+              ></use>
+            </svg>
+          </button>
 
-            <ul class="site-nav">
-              <li class="item site-nav-item">
-                <a href="./index.html" class="link current">Студия</a>
-              </li>
-              <li class="item">
-                <a href="./portfolio.html" class="link">Портфолио</a>
-              </li>
-              <li class="item"><a href="" class="link">Контакты</a></li>
-            </ul>
-          </nav>
+          <div class="menu-container" id="menu-container" data-menu>
+            <div class="site-navigation">
+              <nav class="main-nav">
+                <ul class="site-nav">
+                  <li class="item site-nav-item">
+                    <a href="./index.html" class="link current">Студия</a>
+                  </li>
+                  <li class="item">
+                    <a href="./portfolio.html" class="link">Портфолио</a>
+                  </li>
+                  <li class="item"><a href="" class="link">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
 
-          <ul class="cont-nav">
-            <li class="cont-nav-item">
-              <!-- <svg class="mail-icon">
+            <div class="site-contacts">
+              <ul class="cont-nav">
+                <li class="cont-nav-item">
+                  <!-- <svg class="mail-icon">
                 <use
                   href="./images/symbol-defs.svg#icon-mail"
                   height="12"
                   width="16"
                 ></use>
               </svg> -->
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="cont-nav-item">
-              <!-- <svg class="smartphone-icon">
+                  <a href="mailto:info@devstudio.com" class="link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="cont-nav-item">
+                  <!-- <svg class="smartphone-icon">
                 <use
                   href="./images/symbol-defs.svg#icon-smartphone"
                   height="16"
                   width="10"
                 ></use>
               </svg> -->
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
+                  <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -549,5 +577,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
